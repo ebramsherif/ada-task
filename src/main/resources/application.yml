@@ -1,0 +1,20 @@
+# Spring Boot configuration
+spring:
+  profiles:
+    active: development
+# Database
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: adatask
+      username:
+      password:
+logging:
+  level:
+    ROOT: ERROR
+    org.springframework: ERROR
+    org.springframework.data: ERROR
+    com.ada.genetics: DEBUG
+    org.mongodb: ERROR
+  file: C:/Users/mitrye/Desktop/logs/application.log
